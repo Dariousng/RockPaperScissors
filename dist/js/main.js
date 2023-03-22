@@ -229,8 +229,7 @@ const updatePersistentData = (winner) => {
 
 const updateWinnerMessage = (winner) => {
   if (winner === 'tie') return;
-  const message =
-    winner === 'computer' ? '🤖 Computer wins! 🤖' : '🏆🔥 You win! 🔥🏆';
+  const message = winner === 'computer' ? '😱 敗北 😱' : '🏆🔥 勝利! 🔥🏆';
   const p1msg = document.getElementById('p1msg');
   p1msg.textContent = message;
 };

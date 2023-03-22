@@ -15,7 +15,7 @@
 
 <body>
     <main>
-        <h1 class="center" tabindex="0">Rock Paper Scissors</h1>
+        <h1 class="center" tabindex="0">包剪揼</h1>
         <a href="#p1msg" class="skip-link">Skip Scoreboard</a>
 
         <section id="scoreBoard" class="scoreBoard">
@@ -25,9 +25,9 @@
             <section id="all_time" class="scoreBoard__section">
                 <h3 class="offscreen">All Time Scoreboard</h3>
                 <div class="scoreBoard__header" aria-hidden="true">
-                    <p><abbr title="Player One">P1</abbr></p>
-                    <p>All Time</p>
-                    <p><abbr title="Computer Player">CP</abbr></p>
+                    <p><abbr title="Player One">玩家</abbr></p>
+                    <p>總得分</p>
+                    <p><abbr title="Computer Player">電腦</abbr></p>
                 </div>
 
                 <div class="scoreBoard__row" role="row">
@@ -45,9 +45,9 @@
             <section id="session" class="scoreBoard__section">
                 <h3 class="offscreen">Session Scoreboard</h3>
                 <div class="scoreBoard__header" aria-hidden="true">
-                    <p><abbr title="Player One">P1</abbr></p>
-                    <p>Session</p>
-                    <p><abbr title="Computer Player">CP</abbr></p>
+                    <p><abbr title="Player One">玩家</abbr></p>
+                    <p>這次得分</p>
+                    <p><abbr title="Computer Player">電腦</abbr></p>
                 </div>
 
                 <div class="scoreBoard__row" role="row">
@@ -64,7 +64,7 @@
         </section>
 
         <section id="playerBoard" class="playerBoard">
-            <h2 id="p1msg" class="center" aria-label="Player One Chooses">Player One Chooses...</h2>
+            <h2 id="p1msg" class="center" aria-label="Player One Chooses">玩家選擇...</h2>
             <div id="gameBoard" class="gameBoard">
                 <div id="rock" class="gameBoard__square">
                     <img src="img/rock.png" alt="select rock" tabindex="0">
@@ -80,7 +80,7 @@
         </section>
 
         <section id="computerBoard" class="computerBoard">
-            <h2 id="cpmsg" class="center" aria-label="Computer Chooses">Computer Chooses...</h2>
+            <h2 id="cpmsg" class="center" aria-label="Computer Chooses">電腦選擇...</h2>
             <div id="cp_gameBoard" class="gameBoard">
                 <div id="cp_rock" class="gameBoard__square">
                     <img src="img/rock.png" alt="rock" tabindex="0">
@@ -95,7 +95,7 @@
         </section>
     </main>
     <form>
-        <button id="playAgain" type="submit" class="playAgain hidden">Play Again?</button>
+        <button id="playAgain" type="submit" class="playAgain hidden">再挑戰?</button>
     </form>
 
 </body>
